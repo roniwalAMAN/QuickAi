@@ -2,9 +2,9 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import AiTools from '../components/AiTools'
-import testimonial from '../components/Testimonial'
 import Testimonial from '../components/Testimonial'
 import Plan from '../components/Plan'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -14,6 +14,7 @@ const Home = () => {
     <AiTools />
     <Testimonial/>
     <Plan />
+    <Footer />
 
     </>
   )
